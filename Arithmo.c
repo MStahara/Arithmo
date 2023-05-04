@@ -18,7 +18,10 @@ int main() {
       result = num1 * num2;
     } else if (operation == '/') {
       result = num1 / num2;
+    } else if (operation == '^') {
+	printf("Keh?");
     }
+      
     printf("The result is %f\n", result);
   }
 
